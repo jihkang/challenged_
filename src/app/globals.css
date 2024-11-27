@@ -6,6 +6,9 @@
   .text-balance {
     text-wrap: balance;
   }
+  .error {
+    @apply focus:outline-red-500
+  }
 }
 
 @layer components{
@@ -18,7 +21,5 @@
   input {
     @apply w-60 px-10 text-left rounded-xl border-2 outline-2 focus:outline-lime-400
   }
-  .error {
-    @apply focus:outline-red-50
-  }
+  
 }
